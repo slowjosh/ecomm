@@ -84,11 +84,12 @@ require_once(ROOT_DIR."includes/navbar.php");
                         </div>
                     </div>
                     <!-- Base Price -->
+                    
+                    <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="numberOfStocks" class="form-label">Base Price</label>
                         <input type="number" class="form-control" id="basePrice" name="basePrice" placeholder="Enter Base Price">
                     </div>
-                    <div class="row">
                         <!-- Number of Stocks -->
                         <div class="col-md-6 mb-3">
                             <label for="numberOfStocks" class="form-label"> Number of Stocks</label>
