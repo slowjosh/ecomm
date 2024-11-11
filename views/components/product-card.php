@@ -7,8 +7,9 @@
                         <p class="card-text">Price: <?php echo number_format($product["unit_price"],2)?></p>
                         <p class="card-text">Stock: <?php echo $product["stocks"]?></p>
                         <p class="card-text">Total Profit: <?php echo number_format($product["total_price"],2)?></p>
-                        <a href="#" class="btn btn-primary">Edit Product</a>
+                        <a  href="<?php echo BASE_URL;?>views/admin/products/edit.php?id=<?php echo $product["id"]; ?>" 
+                        class="btn btn-primary">Edit Product</a>    
                         <a href="#" class="btn btn-danger">Delete Product</a>
                     </div>
                 </div>
-            </div>  
+            </div>          
