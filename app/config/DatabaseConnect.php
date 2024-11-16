@@ -3,7 +3,7 @@
 
 class DatabaseConnect {
     private $host = "localhost";
-    private $database = "ecommerce2";
+    private $database = "ecommerce";
     private $dbusername = "root";
     private $dbpassword = "";
     private $charset    = 'utf8mb4';

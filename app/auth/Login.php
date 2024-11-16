@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                 header("location: /index.php");
                 $_SESSION["user_id"]=$user[0]["id"];
                 $_SESSION["username"]=$user[0]["username"];
-                $_SESSION["fullname"]=$user[0]["fullname"];
+                $_SESSION["fullname"]=$user[0]["fullName"];
                 $_SESSION["is_admin"]=$user[0]["is_admin"];
 
                 $_SESSION["tama"]="Registration successful";
