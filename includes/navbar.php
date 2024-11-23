@@ -31,10 +31,10 @@
                     </li>
 
                      <!-- Dropdown for Signed-in User -->
-                      <?php if(isset($_SESSION["fullname"])){?>
+                      <?php if(isset($_SESSION["username"])){?>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <?php echo $_SESSION["fullname"];?> <!-- Replace with dynamic username -->
+                            <?php echo $_SESSION["username"];?> <!-- Replace with dynamic username -->
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="userDropdown">
                             <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
